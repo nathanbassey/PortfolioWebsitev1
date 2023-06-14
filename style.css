@@ -11,12 +11,22 @@ body {
     color: white;
 }
 
-header {
+#header {
     width: 100%;
     height: 100vh;
     background-image: url(/Img/Bassey\ Ndiokho\ Pix.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: right;
+}
+
+.header-text {
+    margin: 20% 5%;
+    font-size: 30px;
+    color: #080808;
+}
+
+.header-text h1 {
+
 }
 
 /* Nav Bar */
