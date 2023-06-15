@@ -53,15 +53,29 @@
                     <p>As an adept front-end web developer, I bring experience in HTML, CSS, Javascript and React to create dynamic and user-friendly web experiences. With a focus on responsive design and user experience, I am commited to crafting websites that not only look great but also function seamlessly</p>
 
                     <div class="tab-titles">
-                        <p class="tab-links active-link">Skills</p>
-                        <p class="tab-links">Experience</p>
-                        <p class="tab-links">Education</p>
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
                     </div>
-                    <div class="tab-contents">
+                    <div class="tab-contents active-tab" id="skills">
                         <ul>
                             <li><span>UI/UX</span><br>Designing web/app interfaces</li>
                             <li><span>Web Development</span><br>Web app development</li>
                             <li><span>Digital Marketing</span><br>Developing and managing web campaigns</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents">
+                        <ul>
+                            <li><span>2023 - Product Manager</span><br>Almond Media</li>
+                            <li><span>2022 - Digital Project Manager</span><br>UAC Foods</li>
+                            <li><span>2015 - Front End Developer</span><br>Sparkle Foundation</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents">
+                        <ul>
+                            <li><span>2023 - CAN-TEK</span><br>Web Development</li>
+                            <li><span>2022 - Udacity</span><br>UI/UX Design</li>
+                            <li><span>2021 - Interaction Design Foundation (IDx)</span><br>Mobile UI/UX Design</li>
                         </ul>
                     </div>
                 </div>
