@@ -227,6 +227,21 @@ body {
     height: 100%;
 }
 
+.btn {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #c70101;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #eae6db;
+    /* transition: background 0.5s; */
+}
+
+.btn:hover {
+    background: #c70101;
+}
 
 /* Footer Section */
 
