@@ -243,6 +243,56 @@ body {
     background: #c70101;
 }
 
+/* Contact Section */
+
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #353434;
+    padding: 50px;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contact-content {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+button {
+    color: white;
+    font-size: 13px;
+    background-color: #c70101;
+    margin: 8px 0px;
+    padding: 14px 20px;
+}
+
+input {
+    margin: 8px 0px;
+    padding: 12px 20px;
+}
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-title {
+    text-align: center;
+    color: white;
+}
+
 /* Footer Section */
 
 .footer-container {
